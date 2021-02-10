@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function getSteps() {
-  return ['personal data', 'Email and Password', 'abc'];
+  return ['Name', 'Email and Password', 'Number and Gender'];
 }
 
 function getStepContent(stepIndex:number,handleNext:() => void) {
